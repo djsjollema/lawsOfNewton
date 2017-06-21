@@ -1,0 +1,68 @@
+@font-face {
+    font-family: label;
+    src: url(ImpactLabel.ttf);
+}
+
+body{
+  background-color: AntiqueWhite ;
+}
+
+.container{
+  margin-top: 50px;
+  color:midnighblue;
+  display: grid;
+  grid-template-columns: auto 200px 100px 400px 400px auto;
+  grid-template-rows: 70px 450px 100px;
+}
+
+.box{
+  background-image: url(cartboard.jpg);
+  border: 2px solid black;
+  border-radius: 10px;
+  }
+
+.header{
+text-align: center;
+  grid-column: 2 /6;
+  grid-row: 1;
+}
+
+.left img{
+  display: inline-block;
+  width:200px;
+  margin: auto;
+}
+
+.header p{
+
+  font-family: label;
+  font-size: 32px;
+  display: inline-block;
+  background-color: yellow;
+}
+
+.left{
+  padding: 5px;
+  font-family: label;
+  font-size: 32px;
+  grid-column: 2 /4;
+  grid-row: 2;
+}
+
+.left p,li{
+  margin: 20px 0px 0px 0px;
+  display: inline-block;
+  background-color: white;
+}
+
+.right{
+  grid-column: 4 / 6;
+  grid-row:2;
+}
+
+.footer{
+
+  background-color: aliceblue;
+  grid-column: 2 /6;
+  grid-row:3
+}
